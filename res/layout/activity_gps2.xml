@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GPS2" 
+    tools:ignore="contentDescription">
+
+    <ImageView
+          android:id="@+id/whitebg2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:scaleType="fitXY"
+          android:src="@drawable/whitebg2" />
+    
+    <ImageView
+          android:id="@+id/greentop"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/tvTelefono"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:scaleType="fitStart"
+          android:src="@drawable/greentop" />
+    
+    <TextView
+          android:id="@+id/tvTelefono"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/tvUsuario"
+          android:layout_below="@+id/tvUsuario"
+          android:layout_marginTop="37dp"
+          android:textColor="@android:color/transparent" />
+
+    <TextView
+          android:id="@+id/tvTest"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:textColor="@android:color/transparent" />
+
+    <TextView
+          android:id="@+id/tvUsuario"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/tvTest"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="53dp"
+          android:textColor="@android:color/transparent" />
+
+    <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:src="@drawable/textgps2" />
+
+    <Button
+          android:id="@+id/confirmbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/tvTest"
+          android:layout_alignRight="@+id/imageView1"
+          android:layout_marginBottom="86dp"
+          android:background="@drawable/button_custom_gps2" />
+
+    <ImageView
+          android:id="@+id/marker"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignTop="@+id/tvTelefono"
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/marker" />
+
+    <ImageView
+          android:id="@+id/fclogo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/fclogo2" />
+
+</RelativeLayout>

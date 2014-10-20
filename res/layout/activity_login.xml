@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    tools:ignore="contentDescription" >
+
+    <ImageView
+          android:id="@+id/whitebg2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:scaleType="fitXY"
+          android:src="@drawable/whitebg2" />
+    
+    <ImageView
+          android:id="@+id/greentop"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:scaleType="fitStart"
+          android:src="@drawable/greentop" />
+
+    <ImageView
+          android:id="@+id/signin"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/greentop"
+          android:layout_centerHorizontal="true"
+          android:paddingTop="@dimen/activity_vertical_margin"
+          android:src="@drawable/signin" />
+
+    <ImageView
+          android:id="@+id/graybarhiw"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/signin"
+          android:layout_marginTop="14dp"
+          android:paddingLeft="@dimen/activity_horizontal_margin"
+          android:paddingRight="@dimen/activity_horizontal_margin"
+          android:src="@drawable/graylinehiw" />
+
+    <ImageView
+          android:id="@+id/registersubs"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/graybarhiw"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="18dp"
+          android:src="@drawable/registertitles" />
+
+    <EditText
+          android:id="@+id/celular"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/username"
+          android:layout_below="@+id/registersubs"
+          android:layout_marginTop="16dp"
+          android:ems="10"
+          android:inputType="phone" />
+
+    <EditText
+          android:id="@+id/username"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/registersubs"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="26dp"
+          android:ems="10"
+          android:inputType="textPersonName" >
+    </EditText>
+    
+    <Button
+          android:id="@+id/acceptbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/celular"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="20dp"
+          android:background="@drawable/button_custom_login"
+          android:paddingBottom="@dimen/activity_horizontal_margin"
+          android:paddingTop="@dimen/activity_horizontal_margin" />
+
+    <Button
+          android:id="@+id/registerbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/acceptbutton"
+          android:layout_alignRight="@+id/acceptbutton"
+          android:layout_below="@+id/acceptbutton"
+          android:layout_marginTop="20dp"
+          android:background="@drawable/button_custom_register"
+          android:paddingBottom="@dimen/activity_horizontal_margin"
+          android:paddingTop="@dimen/activity_horizontal_margin" />
+    
+    <ImageView
+          android:id="@+id/fclogo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/fclogo2" />
+    
+</RelativeLayout>
